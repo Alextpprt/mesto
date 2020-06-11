@@ -1,0 +1,16 @@
+@import url(./__card/elements__card.css);
+@import url(./__photo/elements__photo.css);
+@import url(./__rectangle/elements__rectangle.css);
+@import url(./__title/elements__title.css);
+@import url(./__like/elements__like.css);
+
+
+.elements {
+display: grid;
+grid-template-rows: repeat(2, 2fr);
+grid-template-columns: repeat(auto-fit, minmax(282px, 3fr));
+grid-gap: 18px; 
+max-width: 1280px;
+margin: 0 auto;
+padding: 0 199px;
+}
