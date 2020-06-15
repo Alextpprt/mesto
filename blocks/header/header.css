@@ -6,3 +6,21 @@
     margin: 0 auto;
     padding: 45px 199px 0;
 }
+
+@media all and (max-width: 1100px) {
+    .header {
+      padding: 45px 120px 0;
+    }
+}
+
+@media all and (max-width: 820px) {
+    .header {
+      padding: 45px 80px 0;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .header {
+      padding: 28px 0 0;
+    }
+}
