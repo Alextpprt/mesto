@@ -18,61 +18,70 @@
                 <div class="profile__content">
                     <img class="profile__avatar" src="./images/avatar.jpg" alt="Аватар Кусто">
                     <div class="profile__info">
-                        <h1 class="profile__name">Жак-Ив Кусто</h1>
+                        <div class="profile__fill">
+                            <h1 class="profile__name">Жак-Ив Кусто</h1>
+                            <button class="button profile__edit" type="button"></button>
+                        </div>
                         <p class="profile__activity">Исследователь океана</p>
                     </div>
                 </div>
-                <button class="profile__addbutton"></button>
+                <button class="button profile__add-button" type="button"></button>
             </section>
             <section class="elements">
-                <div class="elements__card">
+                <ul class="elements__cards">
+                <li class="elements__card">
                     <img class="elements__photo" src="./images/karachaevsk.jpg"  alt="Карачаевск">
                     <div class="elements__rectangle">
                         <h2 class="elements__title">Карачаево-Черкессия</h2>
-                        <img class="elements__like" src="./images/like_icon.svg">
+                        <button class="button elements__like" type="button"></button>
                     </div>
-                </div>
-                <div class="elements__card">
+                </li>
+                <li class="elements__card">
                     <img class="elements__photo" src="./images/elbrus.jpg"  alt="Гора Эльбрус">
                     <div class="elements__rectangle">
                         <h2 class="elements__title">Эльбрус</h2>
-                        <img class="elements__like" src="./images/like_icon.svg">
+                        <button class="button elements__like" type="button"></button>
                     </div>
-                </div>
-                <div class="elements__card">
+                </li>
+                <li class="elements__card">
                     <img class="elements__photo" src="./images/dombaj.jpg"  alt="Домбай">
                     <div class="elements__rectangle">
                         <h2 class="elements__title">Домбай</h2>
-                        <img class="elements__like" src="./images/like_icon.svg">
+                        <button class="button elements__like" type="button"></button>
                     </div>
-                </div>
-                <div class="elements__card">
+                </li>
+                <li class="elements__card">
                     <img class="elements__photo" src="./images/altaj.jpg"  alt="Алтай">
                     <div class="elements__rectangle">
                         <h2 class="elements__title">Алтай</h2>
-                        <img class="elements__like" src="./images/like_icon.svg">
+                        <button class="button elements__like" type="button"></button>
                     </div>
-                </div>
-                <div class="elements__card">
+                </li>
+                <li class="elements__card">
                     <img class="elements__photo" src="./images/jacutia.jpg"  alt="Якутия">
                     <div class="elements__rectangle">
                         <h2 class="elements__title">Якутия</h2>
-                        <img class="elements__like" src="./images/like_icon.svg">
+                        <button class="button elements__like" type="button"></button>
                     </div>
-                </div>
-                <div class="elements__card">
+                </li>
+                <li class="elements__card">
                     <img class="elements__photo" src="./images/vladivostok.jpg"  alt="Владивосток">
                     <div class="elements__rectangle">
                         <h2 class="elements__title">Владивосток</h2>
-                        <img class="elements__like" src="./images/like_icon.svg">
+                        <button class="button elements__like" type="button"></button>
                     </div>
-                </div>
+                </li>
+                </ul>
             </section>
         </main>
 
         <footer class="footer">
             <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
         </footer>
+            <section class="popup">
+                
+             </section>
     </div>
+    <script src="./scripts/index.js"></script>
 </body>
 </html>
