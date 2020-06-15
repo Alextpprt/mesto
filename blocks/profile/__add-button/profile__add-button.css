@@ -3,8 +3,8 @@
     border: 2px solid #fff;
     background-color: transparent;
     border-radius: 2px;
-    min-width: 150px;
-    min-height: 50px;
+    width: 150px;
+    height: 50px;
   }
 
   .profile__add-button::before {
@@ -30,11 +30,20 @@
   opacity: 0.6;
 }
 
+@media all and (max-width: 1100px) {
+  .profile__add-button {
+    width: 333px;
+    margin-top: 36px;
+  }
+}
+
 @media all and (max-width: 550px) {
   .profile__add-button {
     width: 100%;
     margin-top: 36px;
   }
 }
+
+
 
   
