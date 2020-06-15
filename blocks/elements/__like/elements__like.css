@@ -1,4 +1,14 @@
 .elements__like {
+    background-image: url('../../../images/like_icon.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    min-width: 20.76px;
+    min-height: 18.13px;
+    border: none;
     margin-right: 21px;
     margin-left: 35px;
+}
+
+.elements__like:hover {
+    opacity: 0.6;
 }
