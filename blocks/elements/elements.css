@@ -1,3 +1,4 @@
+@import url(./__cards/elements__cards.css);
 @import url(./__card/elements__card.css);
 @import url(./__photo/elements__photo.css);
 @import url(./__rectangle/elements__rectangle.css);
@@ -6,11 +7,25 @@
 
 
 .elements {
-display: grid;
-grid-template-rows: repeat(2, 2fr);
-grid-template-columns: repeat(auto-fit, minmax(282px, 3fr));
-grid-gap: 18px; 
 max-width: 1280px;
 margin: 0 auto;
 padding: 0 199px;
+}
+
+@media all and (max-width: 1100px) {
+    .elements {
+      padding: 0 120px;
+    }
+}
+
+@media all and (max-width: 820px) {
+    .elements {
+        padding: 0 80px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .elements {
+        padding: 0 19px;
+    }
 }
