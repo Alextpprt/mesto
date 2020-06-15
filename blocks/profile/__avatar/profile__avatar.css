@@ -3,3 +3,9 @@
     width: 127px;
     height: 127px;
 }
+
+@media all and (max-width: 550px) {
+    .profile__avatar {
+        margin-bottom: 10.25px;
+    }
+}
