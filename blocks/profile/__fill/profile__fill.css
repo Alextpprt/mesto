@@ -1,0 +1,6 @@
+.profile__fill {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
