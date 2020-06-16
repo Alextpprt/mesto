@@ -4,6 +4,7 @@
     font-weight: 500;
     font-size: 42px;
     line-height: 56px;
+    max-width: 400px;
     margin: 0;
     padding: 0;
     text-overflow: ellipsis;
@@ -14,5 +15,6 @@
 @media all and (max-width: 550px) {
     .profile__name {
         font-size: 27px;
+        max-width: 210px;
     }
 }
