@@ -1,9 +1,9 @@
 @import url(./__copyright/footer__copyright.css);
 
 .footer {
-    max-width: 1280px;
+    max-width: 882px;
     margin: 0 auto;
-    padding: 66px 199px 60px;
+    padding: 66px 0 60px;
 }
 
 @media all and (max-width: 1100px) {
