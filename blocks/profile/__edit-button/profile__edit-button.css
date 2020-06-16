@@ -47,27 +47,16 @@
     }
 
     .profile__edit-button::before {
-        position: absolute;
-        content: '';
-        width: 0;
-        height: 0;
-        border-top: 2px solid #fff;
         border-left: 0.9px solid transparent;
         border-right: 0.9px solid transparent;
         left: 4px;
         bottom: 3px;
-        transform: rotate(45deg);
     }
         
     .profile__edit-button::after {
-        position: absolute;
-        content: '';
-        width: 2px;
         height: 8px;
-        background-color: #fff;
         left: 8px;
         bottom: 4px;
-        transform: rotate(45deg);
       }
     
 }
