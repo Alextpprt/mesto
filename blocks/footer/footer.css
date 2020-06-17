@@ -6,15 +6,11 @@
     padding: 66px 0 60px;
 }
 
-@media all and (max-width: 1100px) {
-    .footer {
-        padding: 66px 120px 60px;
-    }
-}
 
-@media all and (max-width: 820px) {
+
+@media all and (max-width: 950px) {
     .footer {
-        padding: 66px 80px 60px;
+        padding: 66px 50px 60px;
     }
 }
 
