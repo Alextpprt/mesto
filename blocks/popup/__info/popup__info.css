@@ -1,0 +1,6 @@
+.popup__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 54px 0 48px;
+}
