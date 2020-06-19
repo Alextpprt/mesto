@@ -8,7 +8,6 @@
     margin: 0;
 }
 
-
 @media all and (max-width: 550px) {
     .elements__cards {
         grid-gap: 20px;
