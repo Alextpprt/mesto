@@ -7,7 +7,7 @@
     height: 50px;
   }
 
-  .profile__add-button::before {
+.profile__add-button::before {
     position: absolute;
     content: '';
     width: 2px;
@@ -17,17 +17,17 @@
 }
 
 .profile__add-button::after {
-  position: absolute;
-  content: '';
-  width: 2px;
-  height: 22px;
-  background-color: #fff;
-  top: 12px;
-  transform: rotate(90deg);
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 22px;
+    background-color: #fff;
+    top: 12px;
+    transform: rotate(90deg);
 }
 
 .profile__add-button:hover {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 @media all and (max-width: 1100px) {
