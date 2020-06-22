@@ -8,10 +8,11 @@ let profileJob = document.querySelector('.profile__activity');
 let saveButton = popup.querySelector('.popup__info');
 
 function popupToggle () {
-    if (popup.classList.toggle('popup_opened')) {
+  if (!(popup.classList.contains('popup_opened'))) { 
         inputName.value = profileName.textContent;
         inputJob.value = profileJob.textContent;
       }
+    popup.classList.toggle('popup_opened');
   }
   
 openButton.addEventListener('click', popupToggle);
