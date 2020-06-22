@@ -11,6 +11,11 @@
     text-align: center;
     min-height: 50.15px;
     margin-top: 48px;
+    box-sizing: border-box;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+    flex-shrink: 0;
 }
 
 .popup__save-button:hover {
