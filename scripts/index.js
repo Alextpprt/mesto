@@ -18,12 +18,15 @@ function popupToggle () {
 openButton.addEventListener('click', popupToggle);
 closeButton.addEventListener('click', popupToggle);
 
+
+
 function formSubmitHandler (evt) {
         evt.preventDefault();
         profileName.textContent = inputName.value;
         profileJob.textContent = inputJob.value; 
         popupToggle ();
       }
+
 
 saveButton.addEventListener('submit', formSubmitHandler);
 
