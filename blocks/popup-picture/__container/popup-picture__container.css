@@ -1,0 +1,19 @@
+.popup-picture__container {
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+}
+
+@media all and (max-width: 550px) {
+    .popup-picture__container {
+        width: 80%;
+    }
+}
+
+
+    
+   
