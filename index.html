@@ -30,54 +30,7 @@
             </section>
             <section class="elements">
                 <ul class="elements__cards">
-                    <li class="elements__card">
-                        <button class="elements__delete" type="button"></button>
-                        <img class="elements__photo" src="./images/karachaevsk.jpg" alt="Карачаевск">
-                        <div class="elements__rectangle">
-                            <h2 class="elements__title">Карачаево-Черкессия</h2>
-                            <button class="elements__like" type="button"></button>
-                        </div>
-                    </li>
-                    <li class="elements__card">
-                        <button class="elements__delete" type="button"></button>
-                        <img class="elements__photo" src="./images/elbrus.jpg" alt="Гора Эльбрус">
-                        <div class="elements__rectangle">
-                            <h2 class="elements__title">Эльбрус</h2>
-                            <button class="elements__like" type="button"></button>
-                        </div>
-                    </li>
-                    <li class="elements__card">
-                        <button class="elements__delete" type="button"></button>
-                        <img class="elements__photo" src="./images/dombaj.jpg" alt="Домбай">
-                        <div class="elements__rectangle">
-                            <h2 class="elements__title">Домбай</h2>
-                            <button class="elements__like" type="button"></button>
-                        </div>
-                    </li>
-                    <li class="elements__card">
-                        <button class="elements__delete" type="button"></button>
-                        <img class="elements__photo" src="./images/altaj.jpg" alt="Алтай">
-                        <div class="elements__rectangle">
-                            <h2 class="elements__title">Алтай</h2>
-                            <button class="elements__like" type="button"></button>
-                        </div>
-                    </li>
-                    <li class="elements__card">
-                        <button class="elements__delete" type="button"></button>
-                        <img class="elements__photo" src="./images/jacutia.jpg" alt="Якутия">
-                        <div class="elements__rectangle">
-                            <h2 class="elements__title">Якутия</h2>
-                            <button class="elements__like" type="button"></button>
-                        </div>
-                    </li>
-                    <li class="elements__card">
-                        <button class="elements__delete" type="button"></button>
-                        <img class="elements__photo" src="./images/vladivostok.jpg" alt="Владивосток">
-                        <div class="elements__rectangle">
-                            <h2 class="elements__title">Владивосток</h2>
-                            <button class="elements__like" type="button"></button>
-                        </div>
-                    </li>
+                   
                 </ul>
             </section>
         </main>
@@ -85,18 +38,48 @@
         <footer class="footer">
             <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
         </footer>
-        <section class="popup">
-            <div class="popup__container">
-                <button class="popup__close-button" type="button"></button>
-                <h2 class="popup__title">Редактировать профиль</h2>
-                <form class="popup__info" name="profile-info">
-                    <input type="text" name="name" value="" class="popup__input popup__input_type_name">
-                    <input type="text" name="job" value="" class="popup__input popup__input_type_activity">
-                    <button class="button popup__save-button" type="submit">Сохранить</button>
+        <section class="popup-edit">
+            <div class="popup-edit__container">
+                <button class="popup-edit__close-button" type="button"></button>
+                <h2 class="popup-edit__title">Редактировать профиль</h2>
+                <form class="popup-edit__info" name="profile-info">
+                    <input type="text" name="name" value="" class="popup-edit__input popup-edit__input_type_name">
+                    <input type="text" name="job" value="" class="popup-edit__input popup-edit__input_type_activity">
+                    <button class="popup-edit__save-button" type="submit">Сохранить</button>
                 </form>
             </div>
         </section>
+        <section class="popup-add">
+            <div class="popup-add__container">
+                <button class="popup-add__close-button" type="button"></button>
+                <h2 class="popup-add__title">Новое место</h2>
+                <form class="popup-add__info" name="new-place">
+                    <input type="text" name="title" value="" class="popup-add__input popup-add__input_type_title" placeholder="Название"required>
+                    <input type="text" name="link" value="" class="popup-add__input popup-add__input_type_link" placeholder="Ссылка на картинку" required>
+                    <button class="popup-add__save-button" type="submit">Сохранить</button>
+                </form>
+            </div>
+        </section>
+        <section class="popup-picture">
+            <div class="popup-picture__container">
+                <button class="popup-picture__close-button" type="button"></button>
+                <figure class="popup-picture__figure">
+                    <img class="popup-picture__photo" src="" alt="">
+                    <figcaption class="popup-picture__caption"></figcaption> 
+                </figure>
+            </div>
+        </section>
     </div>
+    <template class="elements-template">
+        <li class="elements__card">
+            <button class="elements__delete" type="button"></button>
+            <img class="elements__photo" src="#" alt="">
+            <div class="elements__rectangle">
+                <h2 class="elements__title"></h2>
+                <button class="elements__like" type="button"></button>
+            </div>
+        </li>
+    </template>
     <script src="./scripts/index.js"></script>
 </body>
 
