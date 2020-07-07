@@ -5,5 +5,9 @@
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/elements/elements.css);
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/popup/popup.css);
-@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup-edit/popup-edit.css);
+@import url(../blocks/popup-add/popup-add.css);
+@import url(../blocks/popup-picture/popup-picture.css);
+@import url(../blocks/popup-edit/_opened/popup-edit_opened.css);
+@import url(../blocks/popup-add/_opened/popup-add_opened.css);
+@import url(../blocks/popup-picture/_opened/popup-picture_opened.css);
